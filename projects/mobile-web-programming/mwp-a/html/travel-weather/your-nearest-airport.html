@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang='en-GB'>
+	<head>
+		<title>Basel - Your Nearest Airport</title>
+		<link type='text/css' rel='stylesheet' href='../../styles/main.css' />
+		<link type='text/css' rel='stylesheet' href='../../styles/standard-page.css' />
+		<link type='text/css' rel='stylesheet' href='../../styles/standard-page-green.css' />
+		<link type='image/png' rel='icon' href='../../images/favicon.png' />
+		
+		<link type='apple-touch-icon' href='../../images/apple-touch-icons/apple-touch-icon.png' />
+		<link type='apple-touch-icon' size='72x72' href='../../images/apple-touch-icons/apple-touch-icon-72x72.png' />
+		<link type='apple-touch-icon' size='114x114' href='../../images/apple-touch-icons/apple-touch-icon-114x114.png' />
+		<link type='apple-touch-icon-precomposed' href='../../images/apple-touch-icons/apple-touch-icon-precomposed.png' />
+		
+		<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCw0QcIo79vl6vEPtRFr1Fm6g9nf9l8VVQ&amp;sensor=false'></script>
+		
+		<script type='text/javascript' src='../../scripts/airport.js'></script>
+		<script type='text/javascript' src='../../scripts/load-google-maps.js'></script>		
+	</head>
+	<body onload='getLocation()'>
+		<header id='top'>
+			<div id='header'>
+				Your Nearest Airport
+			</div>
+			<nav id='standardNav'>
+				<a class='one' href='../welcome.html'>Welcome</a>
+				<a class='two' href='../events.html'>Events</a>
+				<a class='three' href='../travel-weather.html'>Travel and Weather</a>
+			</nav>
+			<nav id='inlineBasic'>
+				<a class='one' id='welcome' href='../welcome.html'>Welcome</a>
+				<a class='two' id='events' href='../events.html'>Events</a>
+				<a class='three' id='travel-weather' href='../travel-weather.html'>Travel and Weather</a>
+			</nav>
+		</header>
+		<section id='main'>
+			<h4>Find Your Nearest Airport</h4>
+			<p id='mapVisible'>The map below, shows all airports that fly to Basel EuroAirport.</p>
+			<p id='nearestAirport'></p>
+			<div id='map-canvas' style='width:100%; height:600px; '></div>
+		</section>
+		<footer>
+			<small class='left'>
+				Michael Upjohn 2012 - 2013
+			</small>
+			<small class='right'>
+				CE01199-6 Mobile Web Programming
+			</small>
+		</footer>
+	<script type='text/javascript' src='../../scripts/touch-events/touch-events-second-level-pages.js'></script>
+	</body>
+</html>

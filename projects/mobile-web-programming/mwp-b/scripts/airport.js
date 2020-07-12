@@ -1,0 +1,1 @@
+function Airport(a,c,e,d,b){this.marker=a;this.name=c;this.latitude=e;this.longitude=d;this.distanceAway=b}Airport.prototype.getName=function(){return this.name};Airport.prototype.getLatitude=function(){return this.latitude};Airport.prototype.getLongitude=function(){return this.longitude};

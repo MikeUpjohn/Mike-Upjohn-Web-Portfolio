@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MRes Advanced Research</title>
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id='top-banner'>
+			<select id='examples' onchange=initialise()>
+				<option selected='selected' value='0'>--- Select an Option ---</option>
+				<option value='1'>March 23rd Max/Min Temperatures</option>
+			</select>
+			<h2>WeatherView</h2>
+		</div>
+		<div id="main-container">
+			<div id="second-banner"></div>
+			<div id="map-canvas">
+				<span class="map" id="map"></span>
+			</div>
+			<div id="data-table"></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="script.js"></script>
+</html>

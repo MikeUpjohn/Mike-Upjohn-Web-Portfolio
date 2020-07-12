@@ -1,0 +1,28 @@
+#main h4 {
+	color:#0f8f89;
+}
+
+#main h5 {
+	color:#52D0CA;
+}
+
+#main p a {
+	color:#0f8f89;
+}
+
+#main p a :link{
+	color:#0f8f89;
+}
+
+#main p a:visited {
+	color:#0f8f89;
+}
+
+#main p a:hover {
+	color:#04605c;
+	text-decoration:underline;
+}
+
+#main p a:active {
+	color:#0f8f89;
+}

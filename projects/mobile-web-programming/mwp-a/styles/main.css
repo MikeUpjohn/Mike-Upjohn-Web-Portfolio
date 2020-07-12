@@ -1,0 +1,169 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+@font-face {
+	font-family:GillSansMT;
+	src:url(../docs/gill-sans-mt.TTF);
+}
+
+@font-face {
+	font-family:GillSansMTCondensed;
+	src:url(../docs/gill-sans-mt-condensed.TTF);
+}
+
+
+body {
+	max-width:1065px;
+	min-width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	background-color:#EAF4FB;
+}
+
+header#top {
+	position:relative;
+	
+	padding-top:3.5%;
+	padding-bottom:3.5%;
+	
+	min-width:800px;
+	max-width:1350px;
+}
+
+header#top img {
+	min-width:100px;
+	min-height:33px;
+}
+
+#standardNav {
+	width:22%;
+	position:absolute;
+	bottom:0;
+	right:0;
+	
+	background-color:#FFF;
+}
+
+#standardNav a {
+	display:block;
+	text-align:center;
+	
+	padding:10px;
+	margin:10px;
+	
+	font-family:"Segoe UI", "Arial", sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+
+#inlineBasic {
+		clear:both;
+		display:block;
+		margin-top:30px;
+		
+		font-family:"Segoe UI", "Arial", sans-serif;
+	}
+	
+#inlineBasic a {
+		display:inline;
+		padding:10px 10px 10px 10px;
+		
+		text-decoration:none;
+		color:#000;
+		font-weight:bold;
+}
+
+@media screen and (min-width:1025px) {
+	#standardNav {
+		display:block;
+	}
+	
+	#inlineBasic {
+		display:none;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	#standardNav {
+		display:none;
+	}
+	
+	#inlineBasic {
+		display:block;
+	}
+}
+
+.one {
+	background-color:#e28e72;
+}
+
+.two {
+	background-color:#e9c662;
+}
+
+.three {
+	background-color:#6dc6c2;
+}
+
+.one:link{
+	background-color:#e28e72;
+}
+
+.two:link{
+	background-color:#e9c662;
+}
+
+.three:link {
+	background-color:#6dc6c2;
+}
+
+.one:hover {
+	background-color:#D6572E;
+}
+
+.one:active {
+	background-color:#D6572E;
+}
+
+.two:hover {
+	background-color:#CC9A0C;
+}
+
+.two:active {
+	background-color:#CC9A0C;
+}
+
+.three:hover  {
+	background-color:#00AFA8;
+}
+
+.three:active {
+	background-color:#00AFA8;
+}
+
+#main, #mobile {
+	background-color:#FFF;
+	padding:0.5em 0.5em 0.5em 0.5em;
+}
+
+footer {
+	clear:both;
+	padding-top:1.0em;
+	margin-bottom:2.0em;
+	font-family:"Segoe UI", "Arial", sans-serif;
+}
+
+footer small.left {
+	float:left;
+	width:45%;
+}
+
+footer small.right {
+	float:right;
+	width:45%;
+	text-align:right;
+}

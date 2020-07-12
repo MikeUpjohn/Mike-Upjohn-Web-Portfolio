@@ -1,0 +1,20 @@
+body {
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+
+	font-family:"Arial",sans-serif;
+	border:1px solid #000;
+}
+
+#selection {
+	width:100%;
+	height:50px;
+	background-color:#8CDBFA;
+}
+
+#register {
+	background-color:#8CAFFA;
+	width:100%;
+	height:500px;
+}

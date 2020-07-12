@@ -1,0 +1,185 @@
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #2F2F2F;
+}
+
+#top-banner, #second-banner, #main-container {
+	max-width:1250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#top-banner h2 {
+	color:#FFFFFF;
+	font-size:2em;
+	font-family: "Arial", sans-serif;
+}
+
+#top-banner select {
+	float:right;
+	font-size:1.2em;
+	width:30%;
+}
+
+#main-container {
+	min-height:850px;
+	background-color:#CDCDCD;
+}
+
+#second-banner {
+	text-align: center;
+	padding-top:15px;
+}
+
+#second-banner a {
+	font-family:"Arial", sans-serif;
+	font-size:1.6em;
+	color:#FFFFFF;
+	font-weight: bold;
+	margin-right:20px;
+}
+
+#map-canvas {
+	width: 1104px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	margin-top:15px;
+}
+
+#map {
+	width:1104px;
+	height:1699px;
+
+}
+
+#map img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.imageButton {
+	width:250px;
+	height:70px;
+	font-family: "Arial", sans-serif;
+	font-size:1.1em;
+	font-weight: bold;
+}
+
+#weatherData span{
+	display: block;
+
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+
+	text-align:center;
+	vertical-align: middle;
+	line-height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+
+	font-family:"Arial", sans-serif;
+	font-size:1.6em;
+	color:#2E2E2E;
+	font-weight: bold;
+
+	box-shadow: 2px 2px 5px #4D4D4D;
+}
+
+#weatherData {
+	display: table;
+	outline:1px solid #000000;
+	background-color: #FFFFFF;
+	width:50%;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.data-header, .data-row {
+	clear:both;
+	display:block;
+}
+
+.data-header {
+	font-family:"Arial", sans-serif;
+	font-size: 1.2em;
+	font-weight:bold;
+}
+
+.location {
+	clear:both;
+	float:left;
+	width:55%;
+	padding-top:25px;
+	padding-left:5%;
+	height:45px;
+	line-height:20px;
+	/*outline:1px solid #000000;*/
+
+	font-family:"Arial", sans-serif;
+	font-size:1.6em;
+	font-weight:bold;
+}
+
+.maximum-temperature {
+	float:left;
+	width:20%;
+	/*outline:1px solid #000000;*/
+	text-align:center;
+}
+
+.minimum-temperature {
+	float:left;
+	width:20%;
+	/*outline:1px solid #000000;*/
+	text-align:center;
+}
+
+/** New temperature colours **/
+.temp-40{background-color:#ff2b00;}
+.temp-37-39{background-color:#ff3600;}
+.temp-34-36{background-color:#ff4f00;}
+.temp-31-33{background-color:#ff6200;}
+.temp-28-30{background-color:#ff7400;}
+.temp-25-27{background-color:#ff8700;}
+
+/*.temp-40{background-color:#ff8700;}
+.temp-37-39{background-color:#ff8700;}
+.temp-34-36{background-color:#ff8700;}
+.temp-31-33{background-color:#ff8700;}
+.temp-28-30{background-color:#ff8700;}
+.temp-25-27{background-color:#ff8700;}*/
+.temp-22-24{background-color:#ff9b25;}
+.temp-19-21{background-color:#ffb230;}
+.temp-16-18{background-color:#ffcd30;}
+.temp-13-15{background-color:#ffdc36;}
+.temp-10-12{background-color:#fff83b;}
+.temp-7-9{background-color:#defc4e;}
+.temp-4-6{background-color:#c3ff5d;}
+.temp-1-3{background-color:#aaffaa;}
+.temp-0{background-color:#69c3ff;}
+.temp--1--3{background-color:#69c3ff;}
+.temp--4--6{background-color:#69c3ff;}
+.temp--7--9{background-color:#69c3ff;}
+.temp--10--12{background-color:#69c3ff;}
+.temp--13--15{background-color:#69c3ff;}
+.temp--16--18{background-color:#69c3ff;}
+.temp--19--21{background-color:#69c3ff;}
+.temp--22--24{background-color:#69c3ff;}
+.temp--25--27{background-color:#69c3ff;}
+.temp--28--30{background-color:#69c3ff;}
+.temp--31--33{background-color:#69c3ff;}
+.temp--34--36{background-color:#69c3ff;}
+.temp--37--39{background-color:#69c3ff;}
+.temp--40{background-color:#69c3ff;}

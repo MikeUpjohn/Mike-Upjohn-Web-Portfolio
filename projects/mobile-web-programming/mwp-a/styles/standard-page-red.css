@@ -1,0 +1,28 @@
+section h4 {
+	color:#C24E27;
+}
+
+section h5 {
+	color:#C68164;
+}
+
+section p a {
+	color:#C24E27;
+}
+
+section p a :link{
+	color:#C24E27;
+}
+
+section p a:visited {
+	color:#C24E27;
+}
+
+section p a:hover {
+	color:#7C2407;
+	text-decoration:underline;
+}
+
+section p a:active {
+	color:#C24E27;
+}

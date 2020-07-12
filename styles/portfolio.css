@@ -1,0 +1,22 @@
+#portfolio {
+	display: block;
+	/*height:1500px;*/
+}
+
+.portfolio-strip {
+	display:block;
+	height:250px;
+	width:100%;
+
+	text-align:center;
+	margin-bottom:2.0em;
+}
+
+.portfolio-item {
+	border:1px solid #000;
+	height:250px;
+	width:250px;
+	display:inline-block;
+	margin-left:1.0em;
+	margin-right: 1.0em;
+}

@@ -1,0 +1,53 @@
+@media screen and (min-width:1025px) {
+	#header {
+		background-image:url('../images/events/events-in-basel.png');
+		width:444px;
+		height:144px;
+	}
+	
+	#main article:nth-child(1) {
+		background-color:#e9c662;
+	}
+
+	#main article:nth-child(2) {
+		background-color:#cc9a0c;
+	}
+
+	#main article:nth-child(3) {
+		background-color:#9d7400;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	#header {
+		background-image:url('../images/events/events-in-basel.png');
+		width:444px;
+		height:144px;
+	}
+
+	#mobile article:nth-child(1) {
+		background-color:#e9c662;
+	}
+
+	#mobile article:nth-child(2) {
+		background-color:#cc9a0c;
+	}
+
+	#mobile article:nth-child(3) {
+		background-color:#9d7400;
+	}
+}
+
+@media screen and (max-width:800px) {	
+	#mobile article:nth-child(1) {
+		background-color:#e9c662;
+	}
+
+	#mobile article:nth-child(2) {
+		background-color:#cc9a0c;
+	}
+
+	#mobile article:nth-child(3) {
+		background-color:#9d7400;
+	}
+}

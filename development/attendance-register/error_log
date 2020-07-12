@@ -1,0 +1,12 @@
+[18-Feb-2014 20:34:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 43
+[18-Feb-2014 20:35:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 44
+[18-Feb-2014 20:35:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 44
+[18-Feb-2014 20:35:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 44
+[18-Feb-2014 20:42:02 UTC] PHP Fatal error:  Call to undefined function connectToDatabase() in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 33
+[18-Feb-2014 21:44:17 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 66
+[18-Feb-2014 21:44:54 UTC] PHP Fatal error:  Cannot redeclare PrintRegister() (previously declared in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php:61) in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 73
+[18-Feb-2014 21:45:21 UTC] PHP Warning:  Missing argument 1 for PrintRegister(), called in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/index.php on line 65 and defined in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 63
+[18-Feb-2014 21:45:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 66
+[18-Feb-2014 21:45:55 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/php/functions.php on line 67
+[18-Feb-2014 21:47:23 UTC] PHP Fatal error:  Call to undefined function listSubjects() in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/index.php on line 41
+[18-Feb-2014 22:00:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/mikeofma/public_html/mike-upjohn.co.uk/attendance-register/results.php on line 14

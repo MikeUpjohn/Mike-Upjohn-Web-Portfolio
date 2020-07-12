@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^mike\-upjohn\.mikeofmaccweather\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mike\-upjohn\.mikeofmaccweather\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.mike\-upjohn\.co\.uk" [R=301,L]
+

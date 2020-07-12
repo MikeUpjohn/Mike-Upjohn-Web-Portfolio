@@ -1,0 +1,40 @@
+@font-face {
+	font-family:"QuicksandBook";
+	src:url('../Quicksand/Quicksand_Book.otf');
+}
+
+.container {
+	display:block;
+	max-width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"QuicksandBook";
+	
+}
+
+.container h1 {
+	padding:1.3em;
+	background-color:#FF7FFB;
+	text-align:center;
+	font-size:3.5em;
+	margin-bottom:0px;
+	font-weight:normal;
+}
+
+.container h3 {
+	text-align:center;
+	background-color:#F9B3F7;
+	margin-top:0px;
+	padding:1.0em;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+.container h2 {
+	text-align:center;
+	font-weight:normal;
+	font-size:2.0em;
+	background-color:#E9E9E9;
+	padding:8.0em 0.0em 8.0em 0.0em;
+	margin:0px;
+}

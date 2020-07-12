@@ -1,0 +1,205 @@
+#header {
+	font-family:"Segoe UI", "Arial", sans-serif;
+	font-size:2.5em;
+	padding-top:1.0em;
+	padding-top:1.0em;
+}
+	
+#main h4 {
+	font-family:"Segoe UI", "Arial", sans-serif;
+	font-size:1.15em;
+	margin-bottom:0.8em;
+}
+
+#main h5 {
+	font-family:"Segoe UI", "Arial", sans-serif;
+	font-size:1.0em;
+	margin-bottom:0.8em;
+}
+
+#main p {
+	font-family:"Segoe UI", "Arial", sans-serif;
+	line-height:1.7em;
+	margin-bottom:1.5em;
+	margin-top:-0.8em;
+}
+
+#main p a {
+	text-decoration:none;
+}
+
+#main ul, ol {
+	font-family:"Segoe UI", "Arial", sans-serif;
+	margin-left:40px;
+	line-height:1.7em;
+}
+	
+#main img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2.0em;
+}
+
+#main .cssExempt {
+	display:block;
+	margin-bottom:0.0em;
+}
+
+#main img.left {
+	text-align:left;
+}
+
+#main img.right {
+	text-align:right;
+}
+	
+#main table.standard  {
+	font-family:"Segoe UI", "Arial", sans-serif;
+	border-collapse:collapse;
+	text-align:center;
+	
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1.0em;
+}
+
+#main table.standard th {
+	background-color:#B6B6B6;
+	padding:5px;
+}
+
+#main table.standard th.wide  {
+	width:250px;
+}
+
+#main table.standard th.medium  {
+	width:100px;
+}
+
+#main table.standard td {
+	padding:5px;
+}
+	
+#bus50plan {
+	display:none;
+}
+	
+#baselBadRoute {
+	display:none;
+}
+	
+@media screen and (min-width:1025px) {
+	#inlineBasic {
+		display:none;
+	}
+	
+	#main section.top5 {
+		font-family:"Segoe UI", "Arial", sans-serif;
+		
+		height:120px;
+		line-height:50px;
+	}
+	
+	#main section.top5 img {
+		float:left;
+	}
+	
+	#climateTableDesktop {
+		display:block;
+	}
+	
+	#climateTableMobile {
+		display:none;
+	}
+	
+	#mapVisible, #map-canvas {
+		display:block;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	nav {
+		display:none;
+	}
+	
+	#main img {
+		display:none;
+	}
+	
+	#main section.top5 img {
+		display:none;
+	}
+	
+	#bus50plan {
+		display:block;
+	}
+	
+	#baselBadRoute {
+		display:block;
+	}
+	
+	#climateTableDesktop {
+		display:none;
+	}
+	
+	#climateTableMobile {
+		display:block;
+	}
+	
+	#mapVisible, #map-canvas{
+		display:none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	nav {
+		display:none;
+	}
+	
+	#inlineBasic {
+		clear:both;
+		display:block;
+		margin-top:30px;
+		
+		font-family:"Segoe UI", "Arial", sans-serif;
+	}
+	
+	#inlineBasic a {
+		display:inline;
+		padding:10px 10px 10px 10px;
+		
+		text-decoration:none;
+		color:#000;
+		font-weight:bold;
+	}
+
+	#main img{
+		display:none;
+	}
+
+	#main section.top5 img {
+		display:none;
+	}
+	
+	#bus50plan {
+		display:block;
+	}
+	
+	#baselBadRoute {
+		display:block;
+	}
+	
+	#climateTableDesktop {
+		display:none;
+	}
+	
+	#climateTableMobile {
+		display:block;
+	}
+	
+	#mapVisible, #map-canvas {
+		display:none;
+	}
+}

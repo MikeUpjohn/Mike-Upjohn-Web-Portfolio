@@ -1,0 +1,73 @@
+/** TEMPERATURE COLOURS **/
+
+.zeroC {
+	background-color:#69C3FF;
+}
+
+.threeC{
+	background-color:#AAFFAA;
+}
+
+.sixC{
+	background-color:#C3FF5D;
+}
+
+.nineC {
+	background-color:#DEFC4E;
+}
+
+.twelveC {
+	background-color:#FFF83B;
+}
+
+.fifteenC {
+	background-color:#FFDC36;
+}
+
+.eightteenC {
+	background-color:#FFCD30;
+}
+
+.twentyoneC {
+	background-color:#FFB230;
+}
+
+.twentyfourC {
+	background-color:#FF9B25;
+}
+
+/** RAINFALL COLOURS **/
+.fifty {
+	background-color:#ABABFF;
+}
+.sixty {
+	background-color:#8F8FFF;
+}
+
+.seventy {
+	background-color:#7575FF;
+}
+
+.eighty {
+	background-color:#4E4EFF;
+}
+
+.ninety {
+	background-color:#3333FD;
+	color:#FFFFFF;
+}
+
+.one-hundred {
+	background-color:#1C1CFD;
+	color:#FFFFFF;
+}
+
+.one-hundred-and-ten {
+	background-color:#0000FF;
+	color:#FFFFFF;
+}
+
+.one-hundred-and-twenty {
+	background-color:#0000BE;
+	color:#FFFFFF;
+}

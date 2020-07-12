@@ -1,0 +1,105 @@
+.validation-errors {
+	display:block;
+	border: 2px solid #FF0000;
+	background-color:#FFC6C6;
+	color:#FF0000;
+	text-align:center;
+	padding:1.0em 1.0em 1.0em 1.0em;
+	margin-bottom:1.0em;
+
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Arial", sans-serif;
+}
+
+.contact-form-container {
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1.0em 1.0em 1.0em 1.0em;
+}
+
+.form-item {
+	display:block;
+	font-family:"QuicksandBook", "Arial", sans-serif;
+	font-size:1.4em;
+	margin-bottom:0.5em;
+}
+
+#your-full-name, #your-email-address, #your-subject, #your-message {
+	display: inline-block;
+	width:250px;
+	font-family:"QuicksandBook", "Arial", sans-serif;
+}
+
+.asterisk, .inline-asterisk {
+	display: inline-block;
+	width:20px;
+	color:#FF0000;
+}
+
+.inline-asterisk {
+	position:relative;
+	left:250px;
+}
+
+.inline-form-item {
+	display:inline;
+}
+
+.formfield {
+	height:1.8em;
+	width:490px;
+}
+
+textarea {
+	width:490px;
+}
+
+#message-form-item {
+	display:block;
+	position: relative;
+}
+
+#message-form-item #your-message, .inline-asterisk  {
+	position: absolute;
+	top:0;
+}
+
+/**
+*	For the message field
+**/
+
+.form-item .inline-form-item-container  {
+	display:inline-block;
+	width:270px;
+	margin-right:0px;
+}
+
+.form-item .inline-form-item-container #your-message, .form-item .inline-form-item-container .inline-asterisk {
+	display:inline;
+}
+
+/**
+*	Form field fonts
+**/
+input, textarea {
+	font-family:"QuicksandBook", "Arial", sans-serif;
+	font-size:0.9em;
+}
+
+/**
+*	For the submit button
+**/
+.all-buttons {
+	background-color:#524A51;
+	width:110px;
+	height:50px;
+	color:#FF49E8;
+}
+
+#submit {
+	display:block;
+	text-align:center;
+}

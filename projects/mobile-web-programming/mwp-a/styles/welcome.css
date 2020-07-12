@@ -1,0 +1,53 @@
+@media screen and (min-width:1025px) {
+	#header {
+		background-image:url('../images/welcome/welcome-in-basel.png');
+		width:492px;
+		height:144px;
+	}
+	
+	#main article:nth-child(1) {
+		background-color:#e28e72;
+	}
+
+	#main article:nth-child(2) {
+		background-color:#da704d;
+	}
+
+	#main article:nth-child(3) {
+		background-color:#d6572e;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	#header {
+		background-image:url('../images/welcome/welcome-in-basel.png');
+		width:492px;
+		height:144px;
+	}
+
+	#mobile article:nth-child(1) {
+		background-color:#e28e72;
+	}
+
+	#mobile article:nth-child(2) {
+		background-color:#da704d;
+	}
+
+	#mobile article:nth-child(3) {
+		background-color:#d6572e;
+	}
+}
+
+@media screen and (max-width:800px) {	
+	#mobile article:nth-child(1) {
+		background-color:#e28e72;
+	}
+
+	#mobile article:nth-child(2) {
+		background-color:#da704d;
+	}
+
+	#mobile article:nth-child(3) {
+		background-color:#d6572e;
+	}
+}

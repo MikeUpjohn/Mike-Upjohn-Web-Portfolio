@@ -1,0 +1,73 @@
+@font-face {
+	font-family:"QuicksandBook";
+	src:url('../../Quicksand/Quicksand_Book.otf');
+}
+
+@font-face {
+	font-family:"QuicksandBoldOblique";
+	src:url('../../Quicksand/Quicksand_Bold_Oblique.otf');
+}
+
+body {
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+	margin:0px;
+	padding:0px;
+}
+
+.top-bar {
+	display:block;
+	height:17px;
+	background-color:#FF7FFB;
+}
+
+.content {
+	max-width:60%;
+	padding-top:0.6em;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;
+}
+
+h1 {
+	text-align:center;
+	font-family:"QuickSandBook", "Arial", sans-serif;
+	font-weight:normal;
+	font-size:3.5em;
+	margin:0px 0px 0px 0px;
+	padding-bottom:0.6em;
+}
+
+.button {
+	display:block;
+	text-align:center;
+	width:100%;
+}
+
+p, ul {
+	font-family:"Arial", sans-serif;
+	font-weight:normal;
+}
+
+ul li{
+	list-style-type: square;
+}
+
+a:link {
+	color:#FF24E4;
+	text-decoration: none;
+}
+
+a:visited, a:hover, a:active  {
+	color:#FF24E4;
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	font-family: "Arial", sans-serif;
+	font-size:0.8em;
+	background-color: #FFFFFF;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<title>Example JQX Grid</title>
+	<link rel="stylesheet" href="jqx/styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="jqx/scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="jqx/jqx-all.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    		var url = "data.csv";
+
+    		var source =
+    		{
+    			datatype: "csv",
+    			datafields: [
+	    			{ name: 'BST', type: 'date'},
+	    			{ name: 'Max TemperatureC', type: 'int'},
+	    			{ name: 'Mean TemperatureC', type: 'int'},
+	    			{ name: 'Min TemperatureC', type: 'int'},
+	    			{ name: 'Dew PointC', type:'int'},
+	    			{ name: 'MeanDew PointC', type: 'int'},
+	    			{ name: 'Min DewpointC', type:'int'}
+    			],
+    			url:url
+    		};
+
+    		var dataAdapter = new $.jqx.dataAdapter(source);
+
+    		$("#jqxgrid").jqxGrid({
+    			width: 850,
+    			source: dataAdapter,
+    			columnsresize: true,
+    			columns: [
+    				{text: 'BST', datafield: 'BST', width: 250},
+    				{text: 'Max TemperatureC', datafield: 'Max TemperatureC', width: 100},
+    				{text: 'Mean TemperatureC', datafield: 'Mean TemperatureC', width: 100},
+    				{text: 'Min TemperatureC', datafield: 'Min TemperatureC', width: 100},
+    				{text: 'Dew PointC', datafield: 'Dew PointC', width: 100},
+    				{text: 'MeanDew PointC', datafield: 'MeanDew PointC', width: 100},
+    				{text: 'Min DewpointC', datafield: 'Min DewpointC', width: 100},
+    			]
+    		});
+    	});
+    </script>
+</head>
+<body>
+	<div id='jqxgrid'></div>
+</body>
